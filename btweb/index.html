@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <aside class="sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="#" class="active"><img src="element-4.svg" alt="Home Icon"></a></li>
+                <li><a href="#"><img src="graph.svg" alt="Timer Icon"></a></li>
+                <li><a href="#"><img src="medal-star.svg" alt="Location Icon"></a></li>
+                <li><a href="#"><img src="messages.svg" alt="Message Icon"></a></li>
+                <li><a href="#"><img src="setting-2.svg" alt="Settings Icon"></a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <header class="content-header">
+                <div class="welcome-text">
+                    <h2>Welcome, Amanda</h2>
+                    <p>Tue, 07 June 2022</p>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <img src="search-normal.svg" alt="Search Icon" class="search-icon-img">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <button class="notification-btn">
+                        <img src="notification-bing.svg" alt="Notification Icon">
+                    </button>
+                    <div class="user-avatar-small">
+                        <img src="Rectangle 1072.svg" alt="Avatar">
+                    </div>
+                </div>
+            </header>
+            <div class="profile-banner-container">
+                <img src="Rectangle 6691.svg" alt="Profile Banner" class="profile-banner-img">
+            </div>
+
+            <div class="profile-body">
+                <div class="profile-intro">
+                    <div class="profile-avatar-large">
+                        <img src="Ellipse 11.svg" alt="Profile Avatar">
+                    </div>
+                    <div class="profile-info-text">
+                        <h3>Alexa Rawles</h3>
+                        <p>alexarawles@gmail.com</p>
+                    </div>
+                    <button class="edit-btn">Edit</button>
+                </div>
+
+                <form class="profile-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Your First Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Nick name</label>
+                            <input type="text" placeholder="Your Nick Name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <select>
+                                <option value="" disabled selected>Your Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <img src="arrow-down.svg" alt="Dropdown" class="dropdown-icon">
+                        </div>
+                        <div class="form-group">
+                            <label>Country</label>
+                            <select>
+                                <option value="" disabled selected>Your Country</option>
+                                <option value="vn">Vietnam</option>
+                                <option value="us">United States</option>
+                            </select>
+                            <img src="arrow-down.svg" alt="Dropdown" class="dropdown-icon">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Language</label>
+                            <select>
+                                <option value="" disabled selected>Your Language</option>
+                                <option value="vi">Vietnamese</option>
+                                <option value="en">English</option>
+                            </select>
+                            <img src="arrow-down.svg" alt="Dropdown" class="dropdown-icon">
+                        </div>
+                        <div class="form-group">
+                            <label>Time Zone</label>
+                            <select>
+                                <option value="" disabled selected>Your Time Zone</option>
+                                <option value="gmt+7">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+                            </select>
+                            <img src="arrow-down.svg" alt="Dropdown" class="dropdown-icon">
+                        </div>
+                    </div>
+                </form>
+
+                <div class="email-section">
+                    <h4>My email Address</h4>
+                    <div class="email-item">
+                        <div class="email-icon">
+                            <img src="sms.svg" alt="Email Icon">
+                        </div>
+                        <div class="email-details">
+                            <span class="email-address">alexarawles@gmail.com</span>
+                            <span class="email-time">1 month ago</span>
+                        </div>
+                    </div>
+                    <button class="add-email-btn">+Add Email Address</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
